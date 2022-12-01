@@ -1,0 +1,65 @@
+.l-swipeEffect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.l-swipeEffect .l-container {
+  display: flex;
+  width: 60vw;
+  height: 100vh;
+  border-left: 2px black solid;
+  border-right: 2px black solid;
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-flow: row nowrap;
+  scroll-snap-type: x mandatory;
+}
+
+.l-swipeEffect .l-container > div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  scroll-snap-align: center;
+  flex: none;
+  overflow: auto;
+}
+
+.l-swipeEffect .l-container > div > div {
+  width: 100%;
+}
+
+.c-content1__child {
+  background-color: red;
+  height: 80%;
+}
+
+.c-content2__child {
+  background-color: orange;
+  height: 300px;
+}
+
+.c-content3__child {
+  background-color: yellow;
+  height: 3000px;
+}
+
+.c-content4__child {
+  background-color: green;
+  height: 500px;
+}
+
+.c-content5__child {
+  background-color: blue;
+  height: 300px;
+}
+
+.c-content6__child {
+  background-color: blueviolet;
+  height: 300px;
+}
+
+.c-content7__child {
+  background-color: purple;
+  height: 300px;
+}
