@@ -44,7 +44,7 @@
   width: 100vw;
   height: calc(100vh - var(--category-region-height));
   /* border-left: 2px black solid;
-  border-right: 2px black solid; */
+    border-right: 2px black solid; */
   overflow-x: auto;
   overflow-y: hidden;
   flex-flow: row nowrap;
