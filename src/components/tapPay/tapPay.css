@@ -1,0 +1,27 @@
+.tappay-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tpfield {
+  height: 40px;
+  width: 300px;
+  border: 1px solid gray;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.tappay-field-focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+#card-number {
+  width: 80%;
+}
