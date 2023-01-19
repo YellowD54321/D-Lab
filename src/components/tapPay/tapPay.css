@@ -1,4 +1,5 @@
 .tappay-page {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,7 +8,7 @@
 
 .tpfield {
   height: 40px;
-  width: 300px;
+  width: 90%;
   border: 1px solid gray;
   margin: 5px 0;
   padding: 5px;
@@ -22,6 +23,19 @@
     0 0 8px rgba(102, 175, 233, 0.6);
 }
 
-#card-number {
-  width: 80%;
+.tappay-window {
+  width: 90vw;
+  height: 70vh;
+  position: absolute;
+  top: 15vh;
+  left: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+
+.is-hide {
+  display: none;
 }
