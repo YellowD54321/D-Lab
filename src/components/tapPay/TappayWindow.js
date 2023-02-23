@@ -1,9 +1,6 @@
 import { Dialog } from "@mui/material";
 import React, { useEffect, useRef } from "react";
-
-const APP_ID = 126903;
-const APP_KEY =
-  "app_A2Tc5Hb6sekIkziqXsZf9fit0C7X7shLeuc0onPTeW8f9ZvFmAoFCk8QhjpL";
+import { TAP_PAY } from "../../config";
 
 const hideClass = "is-hide";
 
@@ -12,7 +9,7 @@ const TappayWindow = ({ isWindowOpen, setIsWindowOpen }) => {
 
   useEffect(() => {
     console.log("window first render");
-    window.TPDirect.setupSDK(APP_ID, APP_KEY, "sandbox");
+    window.TPDirect.setupSDK(TAP_PAY.APP_ID, TAP_PAY.APP_KEY, "sandbox");
     const fields = {
       number: {
         // css selector

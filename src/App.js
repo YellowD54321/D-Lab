@@ -15,8 +15,8 @@ function App() {
       {/* <SwipeObserver /> */}
       {/* <ApiTest /> */}
       {/* <ShortUrl /> */}
-      {/* <TapPay /> */}
-      <TappayGooglePay />
+      <TapPay />
+      {/* <TappayGooglePay /> */}
       {/* <TappayLinePay /> */}
     </div>
   );
